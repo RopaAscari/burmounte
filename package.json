@@ -1,0 +1,43 @@
+{
+  "name": "burmounte-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "lint": "next lint",
+    "build": "next build",
+    "dev": "NODE_ENV=production next dev",
+    "start": "NODE_ENV=production next start"
+  },
+  "dependencies": {
+    "@deriv/deriv-api": "^1.0.13",
+    "@headlessui/react": "^1.7.17",
+    "@reduxjs/toolkit": "^1.9.7",
+    "@types/node": "^20.8.2",
+    "@types/react": "^18.2.24",
+    "@types/react-dom": "^18.2.9",
+    "aos": "^3.0.0-beta.6",
+    "chartjs-adapter-moment": "^1.0.1",
+    "contentlayer": "^0.3.2",
+    "date-fns": "^2.30.0",
+    "next": "^13.5.4",
+    "next-contentlayer": "^0.3.4",
+    "next-redux-wrapper": "^8.1.0",
+    "next-themes": "^0.2.1",
+    "react": "18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "18.2.0",
+    "react-qr-code": "^2.0.12",
+    "redux-persist": "^6.0.0",
+    "sharp": "^0.32.6",
+    "swiper": "^8.4.7",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.6",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/aos": "^3.0.5",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.3"
+  }
+}
